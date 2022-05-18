@@ -2,10 +2,10 @@
 
 class DB_connect{
 
-    private $username="qNG1SQ5eQt";
-    private $password="RktUcxEuSi";
+    private $username="qNG1SQ5eQ";
+    private $password="RktUcxEuS";
     private $host="remotemysql.com";
-    private $db="qNG1SQ5eQt";
+    private $db="qNG1SQ5eQ";
 
     public $conn=null;
     public function __construct()
