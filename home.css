@@ -1,0 +1,202 @@
+.hb{
+    /* background: url("img/bg3.jpg"); */
+    background-color: #000;
+    /* opacity: 0.8; */
+}
+
+a h2{
+    color:#d500aa ;
+    background-color: #a38e9f;
+    font-size: 1.6rem;
+    margin: 10px auto;
+    width:fit-content;
+    padding: 15px;
+    border-radius: 200px;
+    font-family: monospace;  
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+a span:hover{
+    color: #e1ff00;
+}
+
+
+
+.nav-link{
+    font-weight: bold;
+}
+
+
+
+#pro{
+    
+    color: rgb(255, 255, 255) ;
+}
+
+.avatar {
+    background-color: rgba(255, 217, 0, 0.8) !important;
+    padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0 5px 15px 0px rgba(255, 159, 159, 0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+    border-radius: 50px;
+  
+
+}
+
+span{
+    font-family: monospace;
+   font-size:1.5rem ;
+    opacity: 0.9;
+    color: #a38e9f;
+    -webkit-text-stroke-color: rgb(229, 19, 19);
+    border: 1px;
+    font-weight: bold;
+}
+
+.jumbotron{
+    background-color: rgba(136, 124, 124, 0.1);
+}
+
+.container-fluid{
+    background-color: rgba(136, 162, 204, 0.2);
+    width: 50% !important;
+    /* min-width: 75%;
+    max-width: 80%; */
+}
+
+
+
+.container h4{
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 2.5rem;
+}
+
+
+.grid-item{
+    margin-bottom: 5px ;
+}
+
+.card{
+    padding: 5px !important;
+    height: 300px !important;
+    background: lightcyan;
+}
+
+.ss-s{
+    display: block;
+}
+
+@media only screen and (max-width:786px) {
+    .col-xs-6{
+        width:50%;
+    } 
+    .card{
+        height: 300px !important;
+    }
+    .ss-s{
+        display: block;
+        font-size: 1.5rem !important;
+
+    }
+    h4{
+        font-size: 0.5rem !important;
+    }
+    .btn-outline-dark{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    
+}
+
+h4{
+    font-size: 1.5rem !important;
+}
+
+@media only screen and (max-width:400px) {
+    .col-xs-6{
+        width:50%;
+    } 
+    .card{
+        height: 230px !important; 
+        padding: 5px !important;
+    }
+    .card-img-top{
+        width:6rem;
+        height:8rem;
+    }
+    .ss-s{
+        display: block;
+        font-size: 0.7rem !important;
+    }
+    h4{
+        font-size: 0.7rem !important;
+    }
+    .btn-outline-dark{
+        width: 100%;
+        font-size: 0.7rem;
+        
+    }
+    
+}
+
+@media (min-width:400px) and (max-width:450px) {
+    .col-xs-6{
+        width:50%;
+    } 
+    .card{
+        height: 250px;
+    }
+    .ss-s{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .btn-outline-dark{
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+}
+
+button a{
+    color: black;
+}
+button a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px) {
+    .container-fluid{
+        width: 80% !important;
+    }
+}
+
+span.dp{
+    color: #a38e9f;
+    font-weight: bold;
+    font-family:monospace;
+}
+
+.card-block{
+    overflow: hidden;
+}
+
+h3{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F7F7F7;
+    text-transform: uppercase;
+}
+
+
+
+
